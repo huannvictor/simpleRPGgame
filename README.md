@@ -1,6 +1,5 @@
 # Battle Card Game
 
-## POO no JavaScript by [Programador Espartano](https://programadorespartano.com.br/)
 Esse projeto se iniciou em um exercício do curso JavaScript FullStack do [OneBitCode.com](https://www.onebitcode.com) onde aprendemos a manipular dados utilizando JavaScript e sua lógica. A ideia simplória nas aulas era capturar dados interagindo com o usuário via os popups padrão do navegador como `confirm()`, `alert()` e `prompt()`.  
 Porém, para me desafiar mais, decidi usar as tags HTML como `<input>` variando entre `text`, `number` e `checkbox` para captar esses dados e manipulá-los numa lógica mais robusta e detalhada.  
   
