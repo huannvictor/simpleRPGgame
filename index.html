@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<link rel="stylesheet" href="./styles.css" />
+		<script defer type="module" src="index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+		<form id="cards">
+			<div class="card" id="attack">
+				<label for="attackChar">Nome do atacante: </label>
+				<input type="text" name="attackChar" id="attackChar" placeholder="Digite o nome"/>
+
+				<label for="attackPower">Poder de ataque: </label>
+				<div class="box" id="attackPower" />0</div>
+
+				<label for="attack-healthPoints" >Pontos de vida: </label>
+				<input type="number" id="attack-healthPoints" placeholder="futura implementação" disabled/>
+
+				<div class="weapons" id="attack-weapons">
+					<ul>
+						<li>
+							<label for="sword">
+								<img  src="src/assets/sword.png" alt="sword icon" />
+								<input type="checkbox" name="sword" id="sword" />
+							</label>
+							<label for="hammer">
+								<img src="src/assets/hammer.png" alt="hammer icon" />
+								<input type="checkbox" name="hammer" id="hammer" />
+							</label>
+							<label for="necromancer">
+								<img src="src/assets/necromancer.png" alt="necromancer icon" />
+								<input type="checkbox" name="necromancer" id="necromancer" />
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card" id="defense">
+				<label for="defenderChar">Nome do defensor: </label>
+				<input type="text" id="defenderChar" placeholder="Digite o nome" />
+
+				<label for="defensePower">Poder de Defesa: </label>
+				<div class="box" id="defensePower" />0</div>
+
+				<label for="defense-healthPoints">Pontos de vida: </label>
+				<input type="number" id="defense-healthPoints" placeholder="futura implementação" disabled/>
+
+				<div class="weapons" id="defense-weapons">
+					<ul>
+						<li>
+							<label for="shield">
+								<img src="src/assets/shield.png" alt="shield icon" />
+								<input type="checkbox" name="shield" id="shield" />
+							</label>
+							<label for="heal">
+								<img src="src/assets/heal.png" alt="heal icon" />
+								<input type="checkbox" name="heal" id="heal" />
+							</label>
+							<label for="freeze">
+								<img src="src/assets/freeze.png" alt="freeze icon" />
+								<input type="checkbox" name="freeze" id="freeze" />
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</form>
+
+		<button id="fight">Fight!</button>
+
+		<div class="card" id="result">
+			<h2>Resultado da partida</h2>
+			<p>Vencedor: <span id="winner"></span></p>
+			<p>Atacante: <span id="attacker"></span></p>
+			<p>
+				Defensor: <span id="defender"></span><span id="health-points"></span>
+			</p>
+			<p>Dano causado: <span id="damage"></span></p>
+		</div>
+	</body>
+  </body>
+</html>

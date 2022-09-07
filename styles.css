@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: lavender;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(171, 172, 173, 0.671);
+  background-color: #fff;
+  min-width: 15rem;
+}
+
+.card#attack {
+  color: crimson;
+  font-weight: bold;
+}
+
+.card#attack input,
+.card#attack div.box,
+.card#attack .habiliteActivated {
+  box-shadow: 1px 2px 3px rgba(220, 20, 60, 0.5);
+}
+
+.card#defense {
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.card#defense input,
+.card#defense div.box,
+.card#defense .habiliteActivated {
+  box-shadow: 1px 2px 3px rgba(100, 148, 237, 0.5);
+}
+
+.card input, div.box {
+  height: 1.5rem;
+  border: none;
+  padding: 0 0.5rem;
+}
+
+.card input:focus {
+  outline: none;
+}
+
+.card input[type="checkbox"] {
+  display: none;
+}
+
+
+.habiliteActivated {
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+div.weapons li {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: .5rem;
+  list-style-type: none;
+  min-height: 5rem;
+}
+
+div.weapons li label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.weapons li label img {
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+div.weapons li label img:hover {
+  opacity: 70%;
+}
+
+div#attack-weapons li label input[type="checkbox"],
+div#defense-weapons li label input[type="checkbox"] {
+  box-shadow: none;
+}
+
+
+button {
+  padding: 1rem;
+  background-color: firebrick;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+button:active {
+  outline: none;
+}
