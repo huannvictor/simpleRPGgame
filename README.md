@@ -10,7 +10,7 @@ O usuário insere os nomes de cada jogador, seleciona algum armamento que increm
 <h2>Screenshots</h2> 
 <div style="text-align: center;>
   <h3> Aplicativo aberto</h3>
-  <img src="src/assets/print.gif](https://raw.githubusercontent.com/huannvictor/simpleRPGgame/99e4e7542758128cb137298dafcbb721a26acd68/src/assets/print.gif">
+  <img src="src/assets/print.gif">
 </div>
 
 
