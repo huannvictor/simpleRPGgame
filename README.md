@@ -8,9 +8,9 @@ O game é simples, são dois cards, um com o atacante e outro com o defensor.
 O usuário insere os nomes de cada jogador, seleciona algum armamento que incrementa no poder de ataque ou de defesa e então clica no botão 'fight' e o resultado é informado abaixo.
 
 <h2>Screenshots</h2> 
-<div style="text-align: center;>
-  <h3> Aplicativo aberto</h3>
-  <img src="src/assets/print.gif">
+<div style="text-align: center;">
+  <h3> Aplicativo em uso</h3>
+  <img src="https://raw.githubusercontent.com/huannvictor/simpleRPGgame/99e4e7542758128cb137298dafcbb721a26acd68/src/assets/print.gif">
 </div>
 
 
